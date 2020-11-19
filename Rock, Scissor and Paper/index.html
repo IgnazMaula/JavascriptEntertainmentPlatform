@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissor and Papper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Rock, Scissor and Paper</h1>
+    </div>
+    <div class="player"><h2>Player</h2></div>
+    <div class="content">
+        <div class="player-choice">
+            <button type="button" class="choice-btn btn btn-secondary btn-lg rock"><i class="fas fa-hand-rock fa-5x"></i>
+                <h3>Rock</h3>
+            </button>
+            <button type="button" class="choice-btn btn btn-secondary btn-lg scissor"><i class="fas fa-hand-scissors fa-5x"></i>
+                <h3>Scissor</h3>
+            </button>
+            <button type="button" class="choice-btn btn btn-secondary btn-lg paper"><i class="fas fa-hand-paper fa-5x"></i>
+                <h3>Paper</h3>
+            </button>
+        </div>
+        <div class="result row">
+            <div class="col">
+                <h2 id="player-choice">Player</h2>
+            </div>
+            <div class="col">
+                <h1 id="match-result">VS</h1>
+            </div>
+            <div class="col">
+                <h2 id="com-choice">Computer</h2>
+            </div>
+        </div>
+        <div class="computer-choice">
+            <button type="button" class="choice-btn btn btn-secondary btn-lg cRock" style="pointer-events: none;"><i class="fas fa-hand-rock fa-5x"></i>
+                <h3>Rock</h3>
+            </button>
+            <button type="button" class="choice-btn btn btn-secondary btn-lg cScissor" style="pointer-events: none;"><i class="fas fa-hand-scissors fa-5x"></i>
+                <h3>Scissor</h3>
+            </button>
+            <button type="button" class="choice-btn btn btn-secondary btn-lg cPaper" style="pointer-events: none;"><i class="fas fa-hand-paper fa-5x"></i>
+                <h3>Paper</h3>
+            </button>
+        </div>
+    </div>
+    <div class="computer"><h2>Computer</h2></div>
+    <div class="score-counter-left"> <h3>Player's Score</h3><h1 id="score-counter-win">0</h1></div>
+    <div class="score-counter-right"> <h3>Comp's Score</h3><h1 id="score-counter-lose">0</h1></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/150932a07f.js" crossorigin="anonymous"></script>
+    <script src="script/scripts.js"></script>
+</body>
+
+</html>
